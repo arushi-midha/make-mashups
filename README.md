@@ -1,2 +1,28 @@
-# make-mashups
-The Audio Mashup Creator is a Python-based application designed to streamline the process of creating audio compilations from YouTube videos of a specified singer
+# Mashup Creator
+
+## Overview
+
+The **Mashup Creator** is a Python-based application that allows users to create audio mashups from videos of their favorite singers. This application enables users to download videos, extract audio, trim the audio clips, and merge them into a single output file. The application also includes a web interface built using Flask, allowing for easy interaction.
+
+## Features
+
+- Download a specified number of videos from YouTube based on the singer's name.
+- Extract audio from the downloaded videos.
+- Trim audio clips to a specified duration.
+- Merge trimmed audio clips into a single output file.
+- User-friendly web interface for inputting parameters.
+- Option to receive the output as a zip file via email.
+
+## Technologies Used
+
+- Python
+- Flask
+- yt-dlp
+- MoviePy
+- Pydub
+- HTML/CSS for the frontend
+
+## Interface
+![image](https://github.com/user-attachments/assets/8b80beaa-410d-4879-a75f-c4cff0752e0f)
+
+
