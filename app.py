@@ -18,16 +18,12 @@ def create_mashup():
     email = request.form['email']
 
     # Validate inputs
-    if int(n_videos) < 10:
-        return "Number of videos must be at least 10.", 400
-    if int(duration) < 20:
-        return "Duration must be at least 20 seconds.", 400
     if not validate_email(email):
         return "Invalid email address.", 400
 
     # Run the Python script with subprocess
     try:
-        result = subprocess.run(['python', 'mashup_script.py', singer_name, n_videos, duration, output_file, email],
+        result = subprocess.run(['python', 'mashup_script.py', singer_name, n_videos, duration, output_file],
                                 capture_output=True, text=True)
         
         # Display the output or any error
