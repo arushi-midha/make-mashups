@@ -23,6 +23,7 @@ The **Mashup Creator** is a Python-based application that allows users to create
 - HTML/CSS for the frontend
 
 ## Interface
-![image](https://github.com/user-attachments/assets/8b80beaa-410d-4879-a75f-c4cff0752e0f)
+![image](https://github.com/user-attachments/assets/73ebfe2a-b586-4e83-a901-9e6b1de0cb7a)
+
 
 
